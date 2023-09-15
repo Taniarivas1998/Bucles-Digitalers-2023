@@ -22,14 +22,18 @@ while(contador<==100){
     console.log ('Iteracion numero ${i}')
 }*/
 
-const alumnosCurso=["Pedro","Maria","Miguel","Ana","Oli","Matias","Daniela","Lili","Fernando"]
+const alumnosCurso=["Pedro", "Maria","Miguel","Ana","Oli","Matias","Daniela","Lili","Fernando"]
 
+
+//*FOR convencional
 /*for (let i=0; i<alumnosCurso.length; i++){
 
     console.log(alumnosCurso[i])
 }
 */
 
+
+// *FOR OF
 for(let alumno of alumnosCurso){
 
 console.log(alumno)
